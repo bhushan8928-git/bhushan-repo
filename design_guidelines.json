@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "name": "E1",
+    "role": "Anti-AI Designer",
+    "tone": "Nomad Luxury",
+    "principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is King",
+      "Zoom In",
+      "Negative Space",
+      "Contrast"
+    ]
+  },
+  "design_system": {
+    "theme": {
+      "mode": "light",
+      "strategy": "Light mode base for airiness, Dark mode for immersive media sections. Implement a toggle."
+    },
+    "colors": {
+      "palette": {
+        "primary": "#0f392b",
+        "primary_foreground": "#ffffff",
+        "secondary": "#f97316",
+        "secondary_foreground": "#ffffff",
+        "background": "#fafaf9",
+        "foreground": "#1c1917",
+        "muted": "#f5f5f4",
+        "muted_foreground": "#78716c",
+        "accent": "#e7e5e4",
+        "accent_foreground": "#1c1917",
+        "card": "#ffffff",
+        "card_foreground": "#1c1917",
+        "border": "#e7e5e4"
+      },
+      "gradients": {
+        "hero_overlay": "linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6))",
+        "card_overlay": "linear-gradient(to top, rgba(0,0,0,0.8), transparent)"
+      }
+    },
+    "typography": {
+      "fonts": {
+        "heading": "Playfair Display, serif",
+        "body": "Manrope, sans-serif",
+        "mono": "JetBrains Mono, monospace"
+      },
+      "scale": {
+        "h1": "text-6xl md:text-8xl font-bold tracking-tighter leading-none",
+        "h2": "text-4xl md:text-6xl font-semibold tracking-tight",
+        "h3": "text-2xl md:text-4xl font-medium",
+        "body_lg": "text-lg md:text-xl leading-relaxed",
+        "body_base": "text-base leading-relaxed",
+        "caption": "text-sm tracking-widest uppercase"
+      }
+    },
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_py": "py-20 md:py-32",
+      "element_gap": "gap-8 md:gap-12"
+    },
+    "radius": {
+      "default": "rounded-none",
+      "card": "rounded-lg",
+      "button": "rounded-full"
+    },
+    "shadows": {
+      "card": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "floating": "shadow-[0_20px_50px_rgb(0,0,0,0.1)]"
+    }
+  },
+  "assets": {
+    "images": {
+      "india": {
+        "hero": "https://images.unsplash.com/photo-1665849863716-b527b5e9ed62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxJbmRpYSUyMFRhaiUyME1haGFsJTIwc3Vuc2V0fGVufDB8fHx8MTc2Nzg4NDY5N3ww&ixlib=rb-4.1.0&q=85",
+        "places": [
+          {
+            "name": "Taj Mahal",
+            "url": "https://images.unsplash.com/photo-1619947494583-29fc109e01d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHxJbmRpYSUyMFRhaiUyME1haGFsJTIwc3Vuc2V0fGVufDB8fHx8MTc2Nzg4NDY5N3ww&ixlib=rb-4.1.0&q=85"
+          },
+          {
+            "name": "Kerala Backwaters",
+            "url": "https://images.unsplash.com/photo-1707893013488-51672ef83425?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxJbmRpYSUyMEtlcmFsYSUyMEJhY2t3YXRlcnMlMjBob3VzZWJvYXR8ZW58MHx8fHwxNzY3ODg0NzI2fDA&ixlib=rb-4.1.0&q=85"
+          }
+        ]
+      },
+      "japan": {
+        "hero": "https://images.unsplash.com/photo-1723708489553-655d04168d39?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxKYXBhbiUyME1vdW50JTIwRnVqaSUyMGNoZXJyeSUyMGJsb3Nzb21zfGVufDB8fHx8MTc2Nzg4NDcwMXww&ixlib=rb-4.1.0&q=85",
+        "places": [
+          {
+            "name": "Mount Fuji",
+            "url": "https://images.unsplash.com/photo-1682768029347-0425b90fa196?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxKYXBhbiUyME1vdW50JTIwRnVqaSUyMGNoZXJyeSUyMGJsb3Nzb21zfGVufDB8fHx8MTc2Nzg4NDcwMXww&ixlib=rb-4.1.0&q=85"
+          },
+          {
+            "name": "Kyoto Bamboo Forest",
+            "url": "https://images.unsplash.com/photo-1670735845005-09c877eb2853?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxKYXBhbiUyMEt5b3RvJTIwQXJhc2hpeWFtYSUyMGJhbWJvbyUyMGZvcmVzdHxlbnwwfHx8fDE3Njc4ODQ3Mjh8MA&ixlib=rb-4.1.0&q=85"
+          }
+        ]
+      },
+      "italy": {
+        "hero": "https://images.unsplash.com/photo-1715527532135-80764537c278?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxJdGFseSUyMEFtYWxmaSUyMENvYXN0JTIwc3VtbWVyfGVufDB8fHx8MTc2Nzg4NDcwMnww&ixlib=rb-4.1.0&q=85",
+        "places": [
+          {
+            "name": "Amalfi Coast",
+            "url": "https://images.unsplash.com/photo-1723380831227-140af7f25d11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxJdGFseSUyMEFtYWxmaSUyMENvYXN0JTIwc3VtbWVyfGVufDB8fHx8MTc2Nzg4NDcwMnww&ixlib=rb-4.1.0&q=85"
+          },
+          {
+            "name": "Venice Canals",
+            "url": "https://images.unsplash.com/photo-1514232290883-98c7b611c6da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxJdGFseSUyMFZlbmljZSUyMENhbmFscyUyMGdvbmRvbGF8ZW58MHx8fHwxNzY3ODg0NzMyfDA&ixlib=rb-4.1.0&q=85"
+          }
+        ]
+      },
+      "switzerland": {
+        "hero": "https://images.unsplash.com/photo-1581010098149-a042c93c4b19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxTd2l0emVybGFuZCUyMFplcm1hdHQlMjBNYXR0ZXJob3JuJTIwd2ludGVyfGVufDB8fHx8MTc2Nzg4NDcwM3ww&ixlib=rb-4.1.0&q=85",
+        "places": [
+          {
+            "name": "Zermatt",
+            "url": "https://images.unsplash.com/photo-1601556169285-92cfcfcf0135?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZCUyMFplcm1hdHQlMjBNYXR0ZXJob3JuJTIwd2ludGVyfGVufDB8fHx8MTc2Nzg4NDcwM3ww&ixlib=rb-4.1.0&q=85"
+          },
+          {
+            "name": "Lucerne Chapel Bridge",
+            "url": "https://images.unsplash.com/photo-1646273165630-b318ac083609?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxTd2l0emVybGFuZCUyMEx1Y2VybmUlMjBDaGFwZWwlMjBCcmlkZ2V8ZW58MHx8fHwxNzY3ODg0NzMzfDA&ixlib=rb-4.1.0&q=85"
+          }
+        ]
+      },
+      "thailand": {
+        "hero": "https://images.unsplash.com/photo-1679220567464-8d6c659a2088?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxUaGFpbGFuZCUyMFBodWtldCUyMGJlYWNoJTIwdHVycXVvaXNlJTIwd2F0ZXJ8ZW58MHx8fHwxNzY3ODg0NzA3fDA&ixlib=rb-4.1.0&q=85",
+        "places": [
+          {
+            "name": "Phuket",
+            "url": "https://images.unsplash.com/photo-1687500161421-13c9c0d1d1b7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwyfHxUaGFpbGFuZCUyMFBodWtldCUyMGJlYWNoJTIwdHVycXVvaXNlJTIwd2F0ZXJ8ZW58MHx8fHwxNzY3ODg0NzA3fDA&ixlib=rb-4.1.0&q=85"
+          },
+          {
+            "name": "Bangkok Grand Palace",
+            "url": "https://images.unsplash.com/photo-1678915577720-86a211239d40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxUaGFpbGFuZCUyMEJhbmdrb2slMjBHcmFuZCUyMFBhbGFjZXxlbnwwfHx8fDE3Njc4ODQ3MzR8MA&ixlib=rb-4.1.0&q=85"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "HeroSection": {
+      "description": "Full-screen immersive hero with video/image background. Text overlay with 'Dream. Plan. Go.' typography.",
+      "specs": "h-screen w-full relative flex items-center justify-center overflow-hidden",
+      "elements": [
+        "Background Image/Video (Parallax)",
+        "Overlay Gradient (Black/40)",
+        "H1 Heading (Playfair Display, White)",
+        "Search Bar (Floating, Glassmorphism)"
+      ]
+    },
+    "CountryCard": {
+      "description": "Vertical card for country listing. Image dominates. Text at bottom.",
+      "specs": "group relative h-[500px] w-full overflow-hidden rounded-lg cursor-pointer",
+      "elements": [
+        "Image (Scale on hover)",
+        "Gradient Overlay (Bottom up)",
+        "Country Name (H2, White, Bottom Left)",
+        "Explore Button (Hidden, visible on hover)"
+      ]
+    },
+    "PlaceCard": {
+      "description": "Bento grid item for specific destinations.",
+      "specs": "bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all",
+      "elements": [
+        "Image (Aspect 4:3)",
+        "Content Padding (p-6)",
+        "Title (H3)",
+        "Location Pin Icon + Text",
+        "Price Tag (Absolute top right, pill shape)"
+      ]
+    },
+    "TripBuilder": {
+      "description": "Floating widget or modal to build itinerary.",
+      "specs": "fixed bottom-8 right-8 z-50 bg-primary text-primary-foreground p-4 rounded-full shadow-floating",
+      "elements": [
+        "Icon (Plus/Map)",
+        "Label 'Plan Trip'",
+        "Expandable to full modal"
+      ]
+    }
+  },
+  "pages": {
+    "Home": {
+      "layout": "Hero -> Horizontal Scroll (Countries) -> Bento Grid (Trending Places) -> Newsletter",
+      "motion": "Staggered entrance for cards. Parallax for hero."
+    },
+    "CountryDetail": {
+      "layout": "Hero (Country) -> Intro Text -> Map Section -> Places Grid (5 places) -> Trip Builder",
+      "motion": "Fade in elements."
+    },
+    "PlaceDetail": {
+      "layout": "Gallery (Masonry) -> Title/Price/Rating -> Description -> Map -> Booking Card",
+      "motion": "Slide up for booking card."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use the provided image URLs for the respective countries and places.",
+    "For the remaining 3 places per country (to meet the '5 places' requirement), use generic placeholders or reuse the country hero style with different crop/filter, or use a reliable placeholder service like 'https://placehold.co/600x400?text=Place+Name'.",
+    "Implement the 'Nomad Luxury' theme: Light mode base, deep green primary, orange accents.",
+    "Use 'Playfair Display' for all Headings and 'Manrope' for body text. Import them via Google Fonts.",
+    "Ensure all interactive elements have 'data-testid'.",
+    "Use 'lucide-react' for icons.",
+    "Create a 'data.js' or 'data.ts' file to mock the backend response for countries and places if the backend is not ready.",
+    "The 'Trip Builder' should be a functional mock that allows adding places to a list.",
+    "Use 'framer-motion' for the page transitions and hover effects."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Avoid generic AI designs. Use generous spacing (p-8, p-12).",
+    "Do not use 'Inter' for headings.",
+    "Use 'sonner' for toasts.",
+    "Use 'shadcn/ui' components but customize the radius and colors to match the 'Nomad Luxury' theme.",
+    "Ensure mobile responsiveness. Images max-h-[80vh] on mobile."
+  ]
+}
